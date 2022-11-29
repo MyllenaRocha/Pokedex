@@ -104,6 +104,25 @@
     height: 70px;
     align-self: flex-end;
 }
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: .25rem .3rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #3716ad;
+    border: none;
+    border-radius: 1rem;
+}
 @media screen and (min-width: 300px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
